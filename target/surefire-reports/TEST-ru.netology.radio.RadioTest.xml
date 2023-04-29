@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.radio.RadioTest" time="0.018" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.radio.RadioTest" time="0.022" tests="29" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Users/simvoli/Library/Java/JavaVirtualMachines/corretto-11.0.18/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/surefire/surefirebooter12614324262484559133.jar /Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/surefire 2023-04-29T20-05-28_040-jvmRun1 surefire6174193508141783774tmp surefire_01045547980113800917tmp"/>
+    <property name="sun.java.command" value="/Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/surefire/surefirebooter11831350449719231348.jar /Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/surefire 2023-04-29T20-14-13_367-jvmRun1 surefire8733851097376099847tmp surefire_01375788874058403018tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/test-classes:/Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/classes:/Users/simvoli/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/Users/simvoli/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/simvoli/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/simvoli/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/simvoli/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/simvoli/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/Users/simvoli/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/simvoli/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/surefire/surefirebooter12614324262484559133.jar"/>
+    <property name="surefire.real.class.path" value="/Users/simvoli/Desktop/Testing/HW Java 11.0.2/target/surefire/surefirebooter11831350449719231348.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.18+10-LTS"/>
@@ -62,18 +62,33 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testPrevNormalVolume" classname="ru.netology.radio.RadioTest" time="0.011"/>
+  <testcase name="testSetNormVolumeConstructor" classname="ru.netology.radio.RadioTest" time="0.011"/>
+  <testcase name="testPrevNormalVolume" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testPrevMinimalVolumeConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testSetAboveMaximumVolume" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testSetMaxOverOneStation" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testNextMaximumVolumeConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testSetNegativeStationConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testNexStation" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testNextMaximumVolume" classname="ru.netology.radio.RadioTest" time="0"/>
-  <testcase name="testNexMaxStation" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testNexMaxStation" classname="ru.netology.radio.RadioTest" time="0.001"/>
+  <testcase name="testSetAboveMaximumVolumeConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testNexStationConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testPrevStation" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testPrevNormalVolumeConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testPrevMinStationConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testSetNormalStation" classname="ru.netology.radio.RadioTest" time="0"/>
-  <testcase name="testNextNormalVolume" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testNextNormalVolume" classname="ru.netology.radio.RadioTest" time="0.001"/>
   <testcase name="testSetNormVolume" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testSetLessThanZeroVolume" classname="ru.netology.radio.RadioTest" time="0"/>
-  <testcase name="testSetNegativeStation" classname="ru.netology.radio.RadioTest" time="0.001"/>
+  <testcase name="testSetNormalStationConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testSetLessThanZeroVolumeConstructor" classname="ru.netology.radio.RadioTest" time="0.001"/>
+  <testcase name="testSetNegativeStation" classname="ru.netology.radio.RadioTest" time="0"/>
   <testcase name="testPrevMinimalVolume" classname="ru.netology.radio.RadioTest" time="0"/>
-  <testcase name="testPrevMinStation" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testSetAboveMaxStationConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testPrevMinStation" classname="ru.netology.radio.RadioTest" time="0.001"/>
+  <testcase name="testNexMaxStationConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testSetMinStationConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testNextNormalVolumeConstructor" classname="ru.netology.radio.RadioTest" time="0"/>
+  <testcase name="testPrevStationConstructor" classname="ru.netology.radio.RadioTest" time="0.001"/>
 </testsuite>

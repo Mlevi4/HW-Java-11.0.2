@@ -9,10 +9,6 @@ public class Radio {
         maxVolume = 99;
     }
 
-    public Radio(int stationsCount, int volumeCount) {
-        maxStation = stationsCount - 1;
-        maxVolume = volumeCount - 1;
-    }
     public void next() {
         if (currentStation != maxStation) {
             currentStation++;
